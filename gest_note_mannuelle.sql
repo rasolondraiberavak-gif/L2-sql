@@ -41,6 +41,13 @@ INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (12, 'Anderson', 'Michael'
 INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (13, 'Type', 'Analyse');
 INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (14, 'Styve', 'Anna');
 INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (15, 'Svens', 'Elsa');
+INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (16, 'Miller', 'Cahier');
+INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (17, 'Brown', 'Peter');
+INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (18, 'Taylor', 'Sophia');
+INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (19, 'Anderson', 'Michael');
+INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (20, 'Type', 'Analyse');
+INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (21, 'Styve', 'Anna');
+INSERT INTO Etudiant (NEtudiant, Nom, Prenoms) VALUES (22, 'Svens', 'Elsa');
 
 
 INSERT INTO Matiere (CodeMat, LibelleMat, CoeffeMat) VALUES ('MATH101', 'Mathematiques', 2.0);
@@ -48,11 +55,11 @@ INSERT INTO Matiere (CodeMat, LibelleMat, CoeffeMat) VALUES ('PHYS101', 'Physiqu
 INSERT INTO Matiere (CodeMat, LibelleMat, CoeffeMat) VALUES ('SVTS101', 'SVT', 1.0);
 
 
-INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (1, 'MATH101', '2026-04-17', 15.5);
-INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (2, 'PHYS101', '2026-04-16', 13.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (21, 'MATH101', '2026-04-17', 15.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (12, 'PHYS101', '2026-04-16', 13.0);
 INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (3, 'SVTS101', '2026-04-15', 14.0);
 INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (4, 'MATH101', '2026-04-14', 16.0);
-INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (5, 'PHYS101', '2026-04-13', 12.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (15, 'PHYS101', '2026-04-13', 12.0);
 INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (6, 'SVTS101', '2026-04-12', 15.0);
 INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (7, 'MATH101', '2026-04-11', 14.5);
 INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (8, 'PHYS101', '2026-04-10', 13.5);
@@ -63,6 +70,31 @@ INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (12, 'PHYS101', 
 INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (13, 'PHYS101', '2026-04-07', 12.5);
 INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (14, 'PHYS101', '2026-04-07', 12.5);
 INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (15, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (16, 'MATH101', '2026-04-17', 15.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (7, 'PHYS101', '2026-04-16', 13.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (18, 'SVTS101', '2026-04-15', 14.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (19, 'MATH101', '2026-04-14', 16.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (20, 'PHYS101', '2026-04-13', 12.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (1, 'SVTS101', '2026-04-12', 15.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (2, 'MATH101', '2026-04-11', 14.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (13, 'PHYS101', '2026-04-10', 13.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (14, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (5, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (16, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (7, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (8, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (19, 'MATH101', '2026-04-17', 15.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (10, 'PHYS101', '2026-04-16', 13.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (21, 'SVTS101', '2026-04-15', 14.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (12, 'MATH101', '2026-04-14', 16.0);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (13, 'SVTS101', '2026-04-09', 14.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (14, 'MATH101', '2026-04-08', 15.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (20, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (3, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (19, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (20, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (21, 'PHYS101', '2026-04-07', 12.5);
+INSERT INTO Evaluer (NEtudiant, CodeMat, DateEval, Note) VALUES (22, 'MATH101', '2026-04-17', 15.5);
 
 SELECT * FROM Etudiant;
 SELECT * FROM Matiere;
@@ -75,20 +107,27 @@ SELECT COUNT(*) AS NombreTotalEtudiants FROM Etudiant;
 SELECT MIN(Note) AS note_la_plus_basse, MAX(Note) AS note_la_plus_haute
 FROM Evaluer;
 
---Les moyenne de chaque etudiant dans chaque matieres
+-- Moyenne de chaque étudiant dans chaque matière
+SELECT NEtudiant, CodeMat, AVG(Note) AS moyenne_etudiant_matiere
+FROM EVALUER
+GROUP BY NEtudiant, CodeMat;
 
+--Moyenne par matière 
+SELECT CodeMat, AVG(Note) AS moyenne_matiere
+FROM EVALUER
+GROUP BY CodeMat;
 
+--Moyenne générale de chaque etudiant
+SELECT NEtudiant, AVG(Note) AS MoyenneGenerale
+FROM EVALUER
+GROUP BY NEtudiant;
 
---Moyenne par matiere
+--Moyenne générale de la promo
+SELECT AVG(Note) AS MoyennePromo
+FROM EVALUER;
 
-
---Moyenne generale de chaque etudiants
-
-
---Moyenne generale de la promotion
-
-
---Les etudiants qui ont une moyenne >= a la moyenne general de la promotion
-
-
-
+--Étudiants avec moye >= moye general 
+SELECT NEtudiant, AVG(Note) AS MoyenneGenerale
+FROM EVALUER
+GROUP BY NEtudiant
+HAVING AVG(Note) >= (SELECT AVG(Note) FROM EVALUER);
